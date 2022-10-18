@@ -1,30 +1,121 @@
-body {
-    background-color: rgb(0, 6, 8);
-  }
-  
-  h1 {
-    color: rgb(240, 226, 24);
-    text-align: center;
-  }
-  h2 {
-    color: white;
-    text-align: center;
-  }
-  h3 {
-    color: white;
-    text-align: center;
-  }
-  h4 {
-    color: white;
-    text-align: center;
-  }
-  h5 {
-    color: white;
-    text-align: center;
-  }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+/* Whole body style definition, Font selection, and text alignment.
+Font source : https://fonts.google.com/specimen/Signika+Negative?query=signika */
+*{
+  margin: 0;
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* Header 1 Color Styling */
+h1{
+  margin-top: 0;
+  color: #dad60e;
+}
+
+.blue{
+  margin-top: 10;
+  color: #16123f;
+}
+
+h2{
+  margin-top: 0;
+  color: #ecf0f8;
+
+}
+
+.intro{
   width: 50%;
+  margin: auto;
+}
+
+
+.hey{
+  padding-bottom: 10px;
+}
+
+p{
+  color: #f7f5f3;
+  line-height: 1.5;
+}
+
+.topcloud{
+  position: relative;
+  right: 300px;
+  top: 50px;
+  height: 250px;
+  width: 250px;
+}
+
+.bottomcloud{
+  position: relative;
+  left: 300px; 
+  bottom: 50px;
+  height: 250px;
+  width: 250px;
+} 
+
+.top-container{
+  background-color: #16123f;
+  height: 500px;
+}
+.middle-container{
+  background-color: #16123f;
+  margin: 30px;
+  height: 400px;
+  
+ 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+
+/* Table styling : Source reference from :  */
+.tables {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.tables td, .tables th {
+  border: 1px solid rgb(161, 161, 161);
+  padding: 8px;
+
+}
+
+.tables tr:nth-child(even){background-color: #f2f2f2;}
+
+.tables tr:hover {background-color: #ddd;}
+
+.tables th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  background-color: #16123f;
+  color: white;
+  width: 100%;
 }
