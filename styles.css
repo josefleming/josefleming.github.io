@@ -17,13 +17,13 @@ h1{
   margin-top: 0;
   color: #16123f;
 }
-
+/* Header 2 Color Styling */
 h2{
   margin-top: 0;
   color: #ecf0f8;
 
 }
-
+/* Introduction Color Styling */
 .intro{
   width: 50%;
   margin: auto;
@@ -33,12 +33,12 @@ h2{
 .hey{
   padding-bottom: 10px;
 }
-
+/* Paragraph Color Styling */
 p{
   color: #f7f5f3;
   line-height: 1.5;
 }
-
+/* Image Styling and Positioning  */
 .topcloud{
   position: relative;
   right: 300px;
@@ -46,7 +46,7 @@ p{
   height: 250px;
   width: 250px;
 }
-
+/* Image Styling and Positioning  */
 .bottomcloud{
   position: relative;
   left: 300px; 
@@ -66,7 +66,7 @@ p{
   
  
 }
-
+/* Navbar Styling: https://www.w3schools.com/css/css_navbar.asp */
 ul {
     list-style-type: none;
     margin: 0;
@@ -93,7 +93,7 @@ li a:hover {
 }
 
 
-/* Table styling : Source reference from :  */
+/* Table styling : Source reference from :https://www.w3schools.com/css/css_table.asp  */
 .tables {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
